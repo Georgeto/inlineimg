@@ -8,10 +8,13 @@
 }
 
 .attachbox dd dl {
-	border-bottom: 1px solid #ddd;
 	display: inline-block;
 	max-width: 100%;
 	margin: 2px;
+}
+
+.attachbox dd dl.file {
+	margin-left: 8px;
 }
 
 div.inline-attachment {
@@ -21,5 +24,4 @@ div.inline-attachment {
 dl.thumbnail, dl.file {
 	display: inline-block!important;
 	vertical-align: middle;
-	margin-right: 5px;
 }
