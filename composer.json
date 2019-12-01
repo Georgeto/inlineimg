@@ -3,7 +3,7 @@
     "type": "phpbb-extension",
     "description": "Consistent placement of image attachments.",
     "homepage": "http://phpbbguru.net",
-    "version": "1.0.0",
+    "version": "1.0.0 CB1",
     "time": "2014-11-30",
     "license": "GPL-2.0",
     "authors": [
@@ -19,7 +19,7 @@
     "extra": {
         "display-name": "Inline images in attachment",
         "soft-require": {
-            "phpbb/phpbb": "3.1.*@dev"
+            "phpbb/phpbb": ">=3.1.0"
         },
         "version-check": {
             "host": "www.phpbb.com",
